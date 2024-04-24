@@ -128,6 +128,7 @@ STATIC_ROOT = BASE_DIR / 'productionfiles'
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'mystaticfiles'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'mystaticfiles')
 
 # Default primary key field type
