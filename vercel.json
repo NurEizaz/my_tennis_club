@@ -9,11 +9,11 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
+        "src": "/static/",
         "dest": "/static/$1"
       },
       {
-        "src": "/(.*)",
+        "src": "/",
         "dest": "my_tennis_club/wsgi.py"
       }
     ]
